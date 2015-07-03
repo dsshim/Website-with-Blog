@@ -188,10 +188,27 @@ a:hover .icon-home3 {
     margin-top: 20px
 }
 
+.footer-text a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.footer-text a:hover{
+    color: whitesmoke;
+}
+
 .post-header .post-date{
     color: dimgrey;
     font-weight: bold;
     margin-left: -45px;
+}
+
+.disqus {
+    background-color: whitesmoke;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-right: -50px;
+    margin-left: -50px;
 }
 
 

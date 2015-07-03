@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>Hearsay and conjecture from a current Turing School student.
+    <description>Hearsay and conjecture from a current &lt;a href=&quot;http://turing.io&quot;&gt;Turing School&lt;/a&gt; student.
 </description>
     <link>http://shim.city/</link>
     <atom:link href="http://shim.city/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Jul 2015 05:21:26 -0600</pubDate>
-    <lastBuildDate>Fri, 03 Jul 2015 05:21:26 -0600</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2015 06:19:56 -0600</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2015 06:19:56 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
