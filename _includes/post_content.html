@@ -1,0 +1,13 @@
+<article>
+
+    <header class="post-header">
+        <a id="post-titles" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+    </header>
+
+    <div class="entry-content">
+
+        {{ post.content }}
+    </div>
+</article>

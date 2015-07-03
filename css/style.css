@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css?family=Sonsie+One);
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot');
+    src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: 'icomoon';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+
+}
+
+.icon-home3:before {
+    content: "\e902";
+}
+.icon-blog:before {
+    content: "\e909";
+}
+.icon-mail2:before {
+    content: "\ea84";
+}
+.icon-twitter:before {
+    content: "\ea91";
+}
+.icon-github:before {
+    content: "\eab1";
+}
+.icon-linkedin:before {
+    content: "\eac8";
+}
+
+body {
+    background-image: url(../images/texture.png);
+    background-repeat: repeat;
+}
+
+#banner {
+    width: 102.4%;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+#name {
+    font-family: Sonsie One, cursive;
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    bottom: 425px;
+    width: 100%;
+    text-align: center;
+    border-right: 10px solid rgba(144, 144, 144, 0.0);
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 24px 2px rgba(0, 0, 0, 0.1),
+    0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.bio p {
+    color: whitesmoke;
+    font-family: Bitter, serif;
+    font-size: 18px;
+}
+
+.bio h3 {
+    color: whitesmoke;
+    font-family: Sonsie One, cursive;
+    font-size: 30px;
+}
+
+.bio a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.bio {
+    margin-top: -150px;
+    margin-left: 30px;
+}
+
+.bio a:hover {
+    color: slategray;
+}
+
+.icons a {
+    color: whitesmoke;
+    font-size: 30px;
+    float: right;
+    width: 5.8%;
+    position: relative;
+    bottom: 50px;
+    text-decoration: none;
+}
+
+a:hover .icon-twitter {
+    color: #41b7d8;
+}
+
+a:hover .icon-github {
+    color: mediumslateblue;
+}
+
+a:hover .icon-linkedin {
+    color: #0073b2;
+}
+
+a:hover .icon-mail2 {
+    color: darkred;
+}
+
+a:hover .icon-blog {
+    color: forestgreen;
+}
+
+a:hover .icon-home3 {
+    color: gold;
+}
+
+.entry-content {
+    background-color: whitesmoke;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.post-header #post-titles {
+    font-family: Bitter, serif;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-left: -50px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.footer-icons {
+    font-size: 30px;
+    float: right;
+
+}
+
+.footer-icons .icon-github{
+    margin-right: 30px;
+}
+
+.footer-icons .icon-mail2{
+    margin-right: 30px;
+}
+
+.footer-icons .icon-linkedin{
+    margin-right: 30px;
+}
+
+.footer-icons .icon-twitter{
+    margin-right: 30px;
+}
+
+.footer-icons .icon-home3{
+    margin-right: 30px;
+}
+
+.footer-text{
+    margin-left: 100px;
+    color: darkgray;
+    font-family: Bitter, serif;
+    margin-top: 20px
+}
+
+.post-header .post-date{
+    color: dimgrey;
+    font-weight: bold;
+    margin-left: -45px;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+# Site settings
+title:
+email: daveshim@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hearsay and conjecture from a current Turing School student.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://shim.city" # the base hostname & protocol for your site
+twitter_username: dave_shim
+github_username:  dsshim
+
+# Build settings
+markdown: kramdown
