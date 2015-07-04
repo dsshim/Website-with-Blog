@@ -2,7 +2,7 @@
 
     <header class="post-header">
         <a id="post-titles" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
 
     </header>
 

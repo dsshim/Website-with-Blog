@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Sonsie+One);
 @import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 @font-face {
     font-family: 'icomoon';
@@ -47,27 +48,31 @@
     content: "\eac8";
 }
 
+.icon-linkedin2:before {
+    content: "\eac9";
+}
+
 body {
     background-image: url(../images/texture.png);
     background-repeat: repeat;
 }
 
 #banner {
-    width: 102.4%;
+    width: 108%;
     position: relative;
     left: -10px;
     top: -10px;
-    margin-bottom: -75px;
+    margin-bottom: -100px;
 }
 
 #name {
     font-family: Sonsie One, cursive;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     position: relative;
-    bottom: 375px;
+    bottom: 100px;
     width: 100%;
-    text-align: center;
+    text-align: right;
     border-right: 10px solid rgba(144, 144, 144, 0.0);
     text-shadow: 0px 3px 0px #b2a98f,
     0px 14px 10px rgba(0, 0, 0, 0.15),
@@ -83,12 +88,13 @@ body {
 .bio p {
     color: whitesmoke;
     font-family: Bitter, serif;
-    font-size: 18px;
+    font-size: 15px;
+    font-style: normal;
 }
 
 .bio h3 {
     color: whitesmoke;
-    font-family: Sonsie One, cursive;
+    font-family: Bitter, serif;
     font-size: 30px;
 }
 
@@ -98,7 +104,11 @@ body {
 }
 
 .bio {
-    margin-top: -150px;
+    margin-top: -25px;
+    /*margin-bottom: 100px;*/
+    /*position: relative;*/
+    /*bottom: 50px;*/
+
     margin-left: 30px;
 }
 
@@ -112,8 +122,11 @@ body {
     float: right;
     width: 5.8%;
     position: relative;
-    bottom: 50px;
+    bottom: 40px;
+    /*bottom: 40px;*/
+
     text-decoration: none;
+
 }
 
 a:hover .icon-twitter {
@@ -128,6 +141,10 @@ a:hover .icon-linkedin {
     color: #0073b2;
 }
 
+a:hover .icon-linkedin2 {
+    color: #0073b2;
+}
+
 a:hover .icon-mail2 {
     color: darkred;
 }
@@ -137,7 +154,7 @@ a:hover .icon-blog {
 }
 
 a:hover .icon-home3 {
-    color: gold;
+    color: slategray;
 }
 
 .entry-content {
@@ -259,7 +276,12 @@ a:hover .icon-home3 {
     text-decoration: none;
     /*float: right;*/
     position: relative;
-    top: -375px;
+    top: -350px;
+    text-shadow:
+    1px  1px 1px dimgray,
+    1px -1px 1px dimgray,
+    -1px  1px 1px dimgray,
+    -1px -1px 1px dimgray;
 
     /*padding: 50px;*/
 }
@@ -272,8 +294,12 @@ margin-right: 11%;
 margin-right: 11%;
 }
 
-.header-icons .icon-linkedin{
+.header-icons .icon-linkedin2{
 margin-right: 11.5%;
+}
+
+.header-icons .icon-linkedin{
+    margin-right: 11.5%;
 }
 
 .header-icons .icon-twitter{
@@ -317,6 +343,210 @@ margin-right: 10%;
 .site-header .banner{
     margin-bottom: -30px;
 }
+
+.home-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -45px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+.header-icons a:hover b{
+    display: inline-block;
+}
+
+.blog-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -45px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+
+}
+
+.git-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -52px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+.mail-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -38px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+.linkedin-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -15px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+.twitter-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -55px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+
+.h-blog-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -45px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+
+}
+
+.h-git-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -52px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+.h-mail-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -40px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+.h-linkedin-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -55px;
+    display: none;
+    color: whitesmoke;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+.h-twitter-text {
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    top: 60px;
+    margin-left: -52px;
+    display: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black,
+    1px -1px 2px black,
+    -1px 1px 2px black,
+    -1px -1px 2px black;
+    font-style: normal;
+}
+
+.main-links .icon-mail2{
+    margin-left: 11%;
+    margin-right: 15%;
+}
+
+.main-links .icon-github{
+    margin-right: 14.5%;
+}
+
+.main-links .icon-blog{
+    margin-right: 13%;
+}
+
+.main-links .icon-linkedin{
+    margin-right: 15%;
+}
+
+
+
+
+
 
 
 
