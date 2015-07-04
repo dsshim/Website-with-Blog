@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    font-family: Bitter, serif;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
@@ -182,16 +182,16 @@ pre {
 /**
  * Icons
  */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}
+//.icon {
+//
+//    > svg {
+//        display: inline-block;
+//        width: 16px;
+//        height: 16px;
+//        vertical-align: middle;
+//
+//        path {
+//            fill: $grey-color;
+//        }
+//    }
+//}

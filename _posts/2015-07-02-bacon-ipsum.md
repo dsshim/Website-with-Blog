@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Bacon Ipsum!"
-date:   2015-07-03 21:49:02
+date:   2015-07-02 21:49:02
+author: Bacon
 categories: test
 ---
 Bacon ipsum dolor amet rump porchetta tenderloin swine landjaeger salami pork belly kielbasa beef ribs flank ribeye. Pancetta turkey boudin pastrami leberkas, prosciutto turducken ribeye bacon pig shank jerky ball tip rump. Fatback boudin turkey jowl, cupim landjaeger ball tip. Short loin pancetta fatback kielbasa.

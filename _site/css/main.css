@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Bitter, serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -131,14 +131,6 @@ pre {
 /**
  * Icons
  */
-.icon > svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle; }
-  .icon > svg path {
-    fill: #828282; }
-
 /**
  * Site header
  */
@@ -252,7 +244,8 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  font-family: Bitter, serif; }
 
 .page-heading {
   font-size: 20px; }

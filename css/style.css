@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot');
-    src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.woff') format('woff'),
-    url('../fonts/icomoon.ttf') format('truetype'),
-    url('../fonts/icomoon.svg#icomoon') format('svg');
+    src: url(../fonts/icomoon.eot);
+    src: url(../fonts/icomoon.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/icomoon.woff) format('woff'),
+    url(../fonts/icomoon.ttf) format('truetype'),
+    url(../fonts/icomoon.svg#icomoon) format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,18 +26,23 @@
 .icon-home3:before {
     content: "\e902";
 }
+
 .icon-blog:before {
     content: "\e909";
 }
+
 .icon-mail2:before {
     content: "\ea84";
 }
+
 .icon-twitter:before {
     content: "\ea91";
 }
+
 .icon-github:before {
     content: "\eab1";
 }
+
 .icon-linkedin:before {
     content: "\eac8";
 }
@@ -52,6 +57,7 @@ body {
     position: relative;
     left: -10px;
     top: -10px;
+    margin-bottom: -75px;
 }
 
 #name {
@@ -59,7 +65,7 @@ body {
     font-size: 60px;
     font-weight: bold;
     position: relative;
-    bottom: 425px;
+    bottom: 375px;
     width: 100%;
     text-align: center;
     border-right: 10px solid rgba(144, 144, 144, 0.0);
@@ -161,57 +167,156 @@ a:hover .icon-home3 {
 
 }
 
-.footer-icons .icon-github{
+.footer-icons .icon-github {
     margin-right: 30px;
 }
 
-.footer-icons .icon-mail2{
+.footer-icons .icon-mail2 {
     margin-right: 30px;
 }
 
-.footer-icons .icon-linkedin{
+.footer-icons .icon-linkedin {
     margin-right: 30px;
 }
 
-.footer-icons .icon-twitter{
+.footer-icons .icon-twitter {
     margin-right: 30px;
 }
 
-.footer-icons .icon-home3{
+.footer-icons .icon-home3 {
     margin-right: 30px;
 }
 
-.footer-text{
-    margin-left: 100px;
+.footer-icons .icon-blog {
+    margin-right: 30px;
+}
+
+.footer-text {
+    margin-left: 40px;
     color: darkgray;
     font-family: Bitter, serif;
     margin-top: 20px
 }
 
-.footer-text a{
+.footer-text a {
     text-decoration: none;
     color: darkgray;
 }
 
-.footer-text a:hover{
+.footer-text a:hover {
     color: whitesmoke;
 }
 
-.post-header .post-date{
+.post-header .post-date {
     color: dimgrey;
     font-weight: bold;
     margin-left: -45px;
 }
 
-.disqus {
+.post .post-content .disqus {
     background-color: whitesmoke;
     padding: 10px 10px 10px 10px;
     margin-top: 50px;
+}
+
+.post .post-content {
+    background-color: whitesmoke;
+    margin-left: -50px;
     margin-right: -50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: -165px;
+}
+
+.post .post-header {
     margin-left: -50px;
 }
 
+.post .post-header .post-title {
+    font-size: 55px;
+}
 
+.post .post-header .post-meta {
+    font-size: 20px;
+}
+
+.title-name {
+    color: whitesmoke;
+    font-family: Sonsie One, cursive;
+    font-size: 56px;
+    position: relative;
+    top: -180px;
+    margin-left: -100px;
+    margin-bottom: -120px;
+}
+
+.image .header-icons {
+    color: whitesmoke;
+    font-size: 40px;
+    text-decoration: none;
+    /*float: right;*/
+    position: relative;
+    top: -375px;
+
+    /*padding: 50px;*/
+}
+
+.header-icons .icon-github {
+margin-right: 11%;
+}
+
+.header-icons .icon-mail2{
+margin-right: 11%;
+}
+
+.header-icons .icon-linkedin{
+margin-right: 11.5%;
+}
+
+.header-icons .icon-twitter{
+margin-right: 2%;
+}
+
+.header-icons .icon-home3{
+margin-right: 11%;
+    margin-left: 10%
+
+}
+
+.header-icons .icon-blog{
+margin-right: 10%;
+}
+
+.site-header .header-icons {
+    color: whitesmoke;
+    font-size: 40px;
+    text-decoration: none;
+    position: relative;
+    top: -380px;
+}
+
+.site-header .header-icons a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.post-header .post-title {
+    position: relative;
+    top: -180px;
+}
+
+.post-header .post-meta {
+    position: relative;
+    top: -180px;
+    margin-left: 25px;
+}
+
+.site-header .banner{
+    margin-bottom: -30px;
+}
 
 
 
